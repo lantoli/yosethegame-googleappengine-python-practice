@@ -1,2 +1,4 @@
 *.pyc
 *.xml
+lib
+.DS_Store
