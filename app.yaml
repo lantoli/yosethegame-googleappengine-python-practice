@@ -9,6 +9,9 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /ping
+  script: ping.app
+
 - url: .*
   script: main.app
 
