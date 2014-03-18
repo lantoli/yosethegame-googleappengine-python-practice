@@ -19,7 +19,8 @@ class MainHandler(webapp2.RequestHandler):
             'contactme': twitter,
             'link': github,
             'pingsvc': '/ping',
-            'pingcode': github + '/blob/master/ping.py'
+            'pingcode': github + '/blob/master/ping.py',
+            'pingtest': github + '/blob/master/tests/test_ping.py'
         }
         template = JINJA_ENVIRONMENT.get_template('main.html')
         self.response.write(template.render(template_values))
