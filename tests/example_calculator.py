@@ -6,7 +6,7 @@ class Calculator:
         return a+b
 
 
-class CalculatorTest(unittest.TestCase):
+class TestCalculator(unittest.TestCase):
 
     def test_calculator_add_method_returns_correct_result(self):
         calc = Calculator()
