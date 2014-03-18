@@ -9,9 +9,6 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: /flask/.*
-  script: flaskexample.app
-
 - url: /ping
   script: ping.app
 
